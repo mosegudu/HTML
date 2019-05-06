@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+/*用户登录 start*/
+
+// 头部
+.header {
+    width: 1200px;
+    height: 98px;
+    background: greenyellow;
+}
+
+.warp {
+    width: 900px;
+    height: 450px;
+    margin: 50px auto;
+    .img-link {
+        display: inline-block;
+        margin-top: 30px;
+        width: 452px;
+        height: 260px;
+        background: url(https://s2.ymatou.com/login/5aebbf5a6893bd825441a68a60b42b51.jpg) no-repeat;
+    }
+    .login {
+        height: 360px;
+        height: 359px;
+    }
+}
+
+.title {
+    width: 360px;
+    height: 21px;
+    border-right: 1px solid #ccc;
+    span {
+        font-size: 14px;
+        color: #666;
+        font-weight: 600;
+    }
+    .register {
+        display: inline-block;
+    }
+    a {
+        display: inline-block;
+        margin-left: 5px;
+    }
+}
+
+.input {
+    width: 360px;
+    height: 310px;
+    background: #fff;
+    background: #efefef;
+    border: 1px solid #ccc;
+    margin: 5px 0 1px;
+    .bg {
+        width: 350px;
+        height: 240px;
+        margin: 5px;
+        padding: 30px 0;
+        background: #fff;
+    }
+}
+
+.input-item {
+    width: 300px;
+    height: 28px;
+    margin: 0 41px 15px 9px;
+    text-align: right;
+    #user {
+        width: 200px;
+        height: 24px;
+        border: 1px solid #dadada;
+        margin-right: 5px;
+    }
+    #password {
+        width: 200px;
+        height: 24px;
+        border: 1px solid #dadada;
+        margin-right: 5px;
+    }
+    #verification {
+        width: 56px;
+        height: 26px;
+        border: 1px solid #dadada;
+    }
+    .rember {
+        text-align: center
+    }
+    #submit {
+        display: inline-block;
+        width: 67px;
+        height: 30px;
+        margin-right: 20px;
+        background: url(https://s2.ymatou.com/login/0c514d7e61b7db90f0798895c10e05a9.png);
+    }
+    #forget {
+        display: inline-block;
+        margin-right: 64px;
+    }
+}
+
+.inline {
+    height: 1px;
+    width: 280px;
+    background: #dadada;
+    margin: 0 35px 15px 15px;
+}
+
+.qita {
+    width: 300px;
+    height: 28px;
+    margin: 0 15px;
+    li {
+        float: left;
+        margin: 0 2px;
+        i {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            background: url(https://s2.ymatou.com/login/d50e308ab6557dead5473e95d8901975.png) no-repeat;
+        }
+    }
+    .weibo {
+        i {
+            background-position: -86px -235px;
+        }
+    }
+    .zhifubao {
+        i {
+            background-position: -62px -235px;
+        }
+    }
+    .weixin {
+        i {
+            width: 23px;
+            background: url(https://s2.ymatou.com/login/bfdb5897258b551e046ea2fbc433c70b.png) no-repeat;
+        }
+    }
+}

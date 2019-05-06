@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/*头部导航条*/
+.inner {
+  width: 1200px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.header-bar {
+  height: 31px;
+  background: #fffeff;
+  line-height: 31px;
+}
+.header-bar .header-bar-left a {
+  display: inline-block;
+  width: 68px;
+  height: 31px;
+  line-height: 31px;
+  margin-left: 16px;
+  text-align: right;
+}
+.header-bar .header-bar-right a {
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  height: 31px;
+  line-height: 31px;
+  margin: 0 10px 0 10px;
+}
+
+.header-search {
+  height: 150px;
+  margin-top: 15px;
+}
+.header-search .logo {
+  display: inline-block;
+  margin-top: 17.5px;
+}
+.header-search .logo a {
+  display: inline-block;
+  width: 309px;
+  height: 63px;
+  background: url(../img/logo.png) no-repeat;
+}
+.header-search .erweima {
+  width: 162px;
+  height: 150px;
+  display: inline-block;
+  background: url(../img/e99aa3f029f2ae1173fabf6e9edf6c8a.png) no-repeat;
+}
+
+.search .search-form {
+  width: 450px;
+  height: 40px;
+  position: relative;
+  margin: 37.5px 0 0 63px;
+  background: #c33;
+  box-shadow: 0 1px 2px #b8b3b3;
+}
+.search .search-form input {
+  width: 370px;
+  height: 36px;
+  font-size: 16px;
+  padding: 7px 0 10px;
+}
+.search .search-form button {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url(https://s2.ymatou.com/home/4f17885f394dcd87bf2232af21239291.png) no-repeat -24px 0;
+  margin: 2px 0 0 40px;
+  border: 0;
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,64 @@
+@charset "utf-8";
+// 热卖地 start
+$top:40px;
+$font:#383838;
+$bg-color:#f8f8f8;
+
+/*热卖地 start*/
+
+.sell-location {
+    height: 409px;
+    width: 1200px;
+    .mod-hd {
+        @extend .extend-title;
+        .theme-icon {
+            background-position: -120px -30px;
+        }
+    }
+    .loca-item {
+        display: inline-block;
+        width: 290px;
+        height: 369px;
+        position: relative;
+        .loca-icon {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: url(../img/icon.png) no-repeat;
+        }
+    }
+    .beimei {
+        background: url(https://s2.ymatou.com/home/b5abefb15e5afbb91d82c65df819be22.png) no-repeat;
+        .loca-icon {
+            background-position: 0 -138px;
+        }
+    }
+    .ouzhou {
+        background: url(https://s2.ymatou.com/home/0ba856d84add76fcb5957592df10e2df.png) no-repeat;
+        .loca-icon {
+            background-position: -80px -138px;
+        }
+    }
+    .yazhou {
+        background: url(https://s2.ymatou.com/home/778992f37a38a1d9baa67ab6c4e44b10.png) no-repeat;
+        .loca-icon {
+            background-position: -160px -138px;
+        }
+    }
+    .aoxin {
+        background: url(https://s2.ymatou.com/home/733c238ece9a530ddd8bb37d23d25a5d.png) no-repeat;
+        .loca-icon {
+            background-position: -240px -138px;
+        }
+    }
+}
+
+.location-list {
+    margin-left: -11px;
+}
+
+
+/*热卖地 end*/

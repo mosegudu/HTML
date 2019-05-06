@@ -1,0 +1,168 @@
+@charset "utf-8";
+// 全球必买清单 start
+$top:40px;
+$font:#383838;
+$bg-color:#f8f8f8;
+// 分类 start
+.classify {
+    height: 900px;
+    margin-top: $top;
+    .mod-hd {
+        @extend .extend-title;
+        .theme-icon {
+            background-position: -96px -30px;
+        }
+    }
+    .classify-left {
+        float: left;
+        width: 305px;
+        height: 540px;
+    }
+    .classify-product {
+        float: left;
+        width: 670px;
+        height: 540px;
+        margin-left: 13px;
+        .cp-item-md {
+            width: 670px;
+            height: 161px;
+            margin-left: -10px;
+        }
+    }
+}
+
+.classify {
+    .mod-md {
+        height: 900px;
+    }
+}
+
+// 分类左边
+.classify {
+    .title-item {
+        position: relative;
+        img {
+            width: 305px;
+            height: 170px;
+        }
+        span {
+            width: 154px;
+            height: 30px;
+            position: absolute;
+            top: 59px;
+            left: 52px;
+            padding: 12px 20px 9px 29px;
+            text-align: center;
+            font-size: 16px;
+            background: url(https://s2.ymatou.com/home/714bc2e0953256c6707d84e00f15afcf.png) no-repeat;
+        }
+    }
+}
+
+//分类右边
+// 标题
+.classify {
+    .cp-item-title {
+        position: relative;
+        width: 639px;
+        height: 6px;
+        background: url(https://s2.ymatou.com/home/03c8418b6410f09816ce86c41dd791ae.png) no-repeat;
+        text-align: center;
+        h3 {
+            color: $font;
+            line-height: 18px;
+            height: 18px;
+            letter-spacing: 6px;
+            position: absolute;
+            top: -6px;
+            left: 285px;
+            text-align: center;
+        }
+    }
+}
+
+// 主体
+.classify {
+    .cp-product {
+        width: 120px;
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 20px;
+        .cp-img {
+            display: inline-block;
+            width: 120px;
+            height: 120px;
+            line-height: 120px;
+            img {
+                width: 120px;
+                height: 120px;
+            }
+        }
+        .cp-name {
+            display: inline-block;
+            text-align: center;
+            width: 120px;
+            height: 18px;
+            margin-top: 3px;
+        }
+    }
+}
+
+// 品牌列表
+.brand-list {
+    width: 1210px;
+    height: 304px;
+    margin-left: -10px;
+    .brand-item {
+        float: left;
+        background: $bg-color;
+        margin-left: 10px;
+        width: 232px;
+        .brand-top {
+            width: 232px;
+            height: 264px;
+            .list {
+                width: 202px;
+                height: 234px;
+                padding: 10px 20px 20px 20px;
+                margin-left: -10px;
+            }
+        }
+        .brand-buttom {
+            width: 230px;
+            height: 24px;
+            border: 1px solid #ccc;
+            background: #fff;
+            text-align: center;
+            padding: 10px 0 5px;
+            font-size: 16px;
+            color: $font;
+            font-weight: 700;
+            border-top: 0;
+        }
+    }
+}
+
+.brand-list {
+    .item {
+        width: 91px;
+        height: 112px;
+        margin: 10px 0 0 10px;
+        float: left;
+        .brand-img {
+            width: 91px;
+            height: 91px;
+            display: inline-block;
+            background: #fff;
+        }
+        .brand-title {
+            display: inline-block;
+            width: 91px;
+            height: 18px;
+            margin-top: 3px;
+            text-align: center;
+        }
+    }
+}
+
+// 分类 end

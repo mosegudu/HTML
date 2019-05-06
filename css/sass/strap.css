@@ -1,0 +1,126 @@
+@charset "UTF-8";
+.main-nav {
+  height: 48px;
+  width: 1200px;
+  text-align: center;
+}
+.main-nav a {
+  display: inline-block;
+  height: 48px;
+  line-height: 48px;
+  width: auto;
+  padding: 0 35px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #383838;
+}
+
+/*banner start*/
+.banner {
+  width: 100%;
+  background: #F13454;
+}
+.banner .banner-list {
+  height: 400px;
+}
+.banner .title-item {
+  height: 56px;
+  background: #f8f8f8;
+  text-align: center;
+}
+.banner .title-item .item {
+  float: left;
+  width: 300px;
+  height: 30px;
+  line-height: 30px;
+  margin: 13px 0;
+  font-size: 16px;
+  margin-left: -1px;
+  border-left: 1px solid #dedede;
+  color: #383838;
+}
+
+/*小图标*/
+.banner .zhengpin-icon {
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  margin-right: 10px;
+  vertical-align: middle;
+  margin-right: 10px;
+  background-size: cover;
+}
+.banner .zhengpin1 {
+  background: url(https://s2.ymatou.com/home/53b158cd870da6051cde733eb923acd5.png) no-repeat;
+}
+.banner .zhengpin2 {
+  background: url(https://s2.ymatou.com/home/93c10fdde59a4d650ac9b613eeb761f8.png) no-repeat;
+}
+.banner .zhengpin3 {
+  background: url(https://s2.ymatou.com/home/2419ad5bf508b57bf244435f5a5315b3.png) no-repeat;
+}
+.banner .zhengpin4 {
+  background: url(https://s2.ymatou.com/home/43b34f11329401c5fd6d0abbfb95cd5a.png) no-repeat;
+}
+
+/*banner end*/
+.extend-title, .mod.flash-sale .mod-hd, .mod.buy-list .mod-hd, #classify .mod-hd, #sell-location .mod-hd {
+  position: relative;
+}
+.extend-title .theme-icon, .mod.flash-sale .mod-hd .theme-icon, .mod.buy-list .mod-hd .theme-icon, #classify .mod-hd .theme-icon, #sell-location .mod-hd .theme-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+}
+.extend-title .title, .mod.flash-sale .mod-hd .title, .mod.buy-list .mod-hd .title, #classify .mod-hd .title, #sell-location .mod-hd .title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #383838;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+.extend-title .more, .mod.flash-sale .mod-hd .more, .mod.buy-list .mod-hd .more, #classify .mod-hd .more, #sell-location .mod-hd .more {
+  display: inline-block;
+  font-size: 17px;
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  width: 58px;
+  height: 26px;
+}
+.extend-title .more .theme-icon-more, .mod.flash-sale .mod-hd .more .theme-icon-more, .mod.buy-list .mod-hd .more .theme-icon-more, #classify .mod-hd .more .theme-icon-more, #sell-location .mod-hd .more .theme-icon-more {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/icon.png);
+  background-repeat: no-repeat;
+  background-position: -192px -33px;
+}
+
+/*限时抢购 start*/
+.mod.flash-sale {
+  margin-top: 40px;
+  height: 393px;
+  background: blueviolet;
+}
+
+.mod.buy-list {
+  height: 632px;
+  margin-top: 40px;
+}
+
+#classify {
+  height: 900px;
+  width: 1200px;
+  background: blue;
+}
+
+#sell-location {
+  height: 300px;
+  width: 1200px;
+  background: violet;
+}
+
+/*# sourceMappingURL=strap.css.map */

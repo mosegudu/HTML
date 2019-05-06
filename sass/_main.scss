@@ -1,0 +1,176 @@
+@charset "utf-8";
+$top:40px;
+$font:#383838;
+$bg-color:#f8f8f8;
+// 用来继承的代码块
+//标题
+.extend-title {
+    width: 1200px;
+    height: 30px;
+    position: relative;
+    .theme-icon {
+        width: 24px;
+        height: 24px;
+        line-height: 30px;
+        display: inline-block;
+        vertical-align: middle;
+        background-repeat: no-repeat;
+        background-image: url(../img/icon.png);
+    }
+    .title {
+        font-size: 20px;
+        font-weight: 700;
+        color: $font;
+        vertical-align: middle;
+        margin-left: 8px;
+    }
+    .more {
+        display: inline-block;
+        font-size: 17px;
+        position: absolute;
+        top: 3px;
+        right: -3px;
+        width: 58px;
+        height: 26px;
+        .theme-icon-more {
+            display: inline-block;
+            position: absolute;
+            right: 0;
+            top: -2px;
+            width: 24px;
+            height: 24px;
+            text-align: right;
+            background-image: url(../img/icon.png);
+            background-repeat: no-repeat;
+            background-position: -192px -33px;
+            vertical-align: middle;
+        }
+    }
+}
+
+
+/*侧边导航 start*/
+
+.side-nav {
+    width: 35px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: $font;
+    text-align: center;
+    .nav-bar {
+        padding: 270px 0 0 0;
+        .item {
+            padding-bottom: 18px;
+            border-bottom: 1px solid #979797;
+            position: relative;
+            a {
+                display: inline-block;
+                padding: 18px 0 7px;
+            }
+        }
+    }
+}
+
+.bar-icon {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+}
+
+.cart {
+    width: 35px;
+    .bar-icon {
+        background: url(https://s2.ymatou.com/top/bd2ccc535c6ae0f5a0aeb824b98a208f.png) no-repeat;
+        background-position: -17px 0;
+    }
+    span {
+        display: inline-block;
+        margin-top: 5px;
+    }
+}
+
+.erweima {
+    .bar-icon {
+        background: url(https://s2.ymatou.com/top/bd2ccc535c6ae0f5a0aeb824b98a208f.png) no-repeat;
+        background-position: -34px 0;
+    }
+}
+
+.top {
+    .bar-icon {
+        background: url(https://s2.ymatou.com/top/bd2ccc535c6ae0f5a0aeb824b98a208f.png) no-repeat;
+        background-position: -102px 0;
+    }
+}
+
+
+/*限时抢购 start*/
+
+.mod.flash-sale {
+    margin-top: $top;
+    height: 393px;
+    // 标题栏
+    .mod-hd {
+        @extend .extend-title;
+        .theme-icon {
+            background-position: 0 -30px;
+        }
+    }
+}
+
+.today-buy {
+    width: 1200px;
+    height: 290px;
+    margin-top: -30px;
+}
+
+.timeout-warp {
+    width: 388px;
+    height: 59px;
+    padding: 14px 0 0 0;
+    margin-top: 20px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    background: url(https://s2.ymatou.com/home/99497957ce2e3e0c500bb3ac461bfd9f.png) no-repeat;
+    .title {
+        font-size: 26px;
+        color: #fff;
+        letter-spacing: 2px;
+        padding-right: 20px;
+        .time-icon {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background: url(../img/icon.png) no-repeat -120px -1px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+    }
+    .time {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        border-radius: 8px;
+        background-color: rgba(196, 52, 52, .8);
+        font-size: 28px;
+        color: #fff;
+    }
+    .text {
+        font-size: 28px;
+        color: #b33939;
+    }
+}
+
+// 限时抢购 end
+// 点击更多
+.button {
+    width: 1200px;
+    height: 50px;
+    margin-top: $top;
+    border: 1px solid #666;
+}
